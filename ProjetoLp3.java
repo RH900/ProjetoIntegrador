@@ -239,7 +239,7 @@ private static ArrayList<Corrente> minhaLista3 = new ArrayList<Corrente>();
                     break;
                     
                 case 8:
-                    System.out.println("Minhas Trasacoes");
+                    System.out.println("Minhas Transacoes");
                     minhaLista.forEach(p -> System.out.println(
                             "\nDescricao:"
                             +p.getDescricao()
