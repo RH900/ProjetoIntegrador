@@ -116,7 +116,7 @@ private static ArrayList<Corrente> minhaLista3 = new ArrayList<Corrente>();
                 double somaCheque = minhaLista3.stream()
                 .mapToDouble(item -> item.getChequeEspecial())
                 .reduce(0, (a, b) -> a + b);
-               System.out.println("Cheque Especial disnivel: "+ somaCheque);
+               System.out.println("Cheque Especial disponivel: "+ somaCheque);
                
                
                    //usando tread
